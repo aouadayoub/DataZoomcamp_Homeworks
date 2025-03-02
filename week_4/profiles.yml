@@ -1,0 +1,13 @@
+taxi_rides_ny:
+  outputs:
+    dev:
+      dbname: postgres-zoomcamp
+      host: localhost
+      keepalives_idle: 0
+      password: says
+      port: 5432
+      schema: dbt_taxi_schema
+      threads: 2
+      type: postgres
+      user: kestra
+  target: dev

@@ -1,0 +1,6 @@
+flows/
+ny_taxi_postgres_data/
+postgres/
+.env/
+docker-compose.yml
+week2/
